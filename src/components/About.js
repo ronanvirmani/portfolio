@@ -1,6 +1,6 @@
-// src/components/About.js
 import React from 'react';
 import { motion } from 'framer-motion';
+import ProfilePic from './ProfilePic.jpg';
 
 const About = () => {
   
@@ -35,11 +35,11 @@ const About = () => {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        {/* <img
+        <img
           src={ProfilePic}
           alt="Ronan Virmani"
-          className="rounded-full w-40 h-40 object-cover shadow-lg"
-        /> */}
+          className="rounded-xl w-80 h-80 object-cover shadow-lg"
+        />
       </motion.div>
     </section>
   );
